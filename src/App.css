@@ -1,0 +1,44 @@
+
+header {
+    background-color: var(--bs-dark-bg-subtle);
+}
+
+.todo-container {
+  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+  width: max-content
+}
+::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.todo-container > div {
+  /* min-height: 50px; */
+  
+}
+
+.row > .todocol {
+  min-width: 80px;
+}
+
+.row > .todocol-task {
+  min-width: 150px;
+  position: sticky;
+  left: 0;
+  background-color: var(--bs-dark);
+}
+div.vr {
+  border-left: 1px solid var(--bs-dark);
+  height: 100%;
+  margin-left: 10px;
+}
+
+
+circle.progress-bg{
+  stroke: var(--bs-secondary-bg);
+}
+
+.todo-container > .row {
+  width: max-content;
+}
